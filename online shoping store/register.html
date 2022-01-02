@@ -1,0 +1,127 @@
+ <html>
+<head>
+<link rel="stylesheet" type="text/css" href="test.css">
+<script scr="js/myscript.js"></script>
+
+<style>
+.rounded{
+width:200px;
+margin:auto;
+
+}
+.rounded img{
+border-radius:50%;
+}
+
+</style>
+
+
+
+
+
+</head>
+
+
+<body background="b.jpg">
+<div class="rounded">
+<img src="img.png" width="200px" height="200px">
+</div>
+
+<h1><center>Shopping Card</h2></center>
+<h2 id="header"><center>The Online Shopping Store</center></h2>
+
+<hr id="test">
+
+<ul class="menu">
+	
+	<li class="menu"><a href="index.html">Home</a></li>
+	<li class="menu"><a href="news.html">News</a></li>
+	<li class="menu"><a href="#">Contact</a></li>
+	<li class="menu"><a href="https://Courseweb.sliit.lk">About</a></li>
+
+</ul>
+<center>
+<br><br>
+
+<form action="#" target="_self" method="GET" onsubmit="return checkPasswords()">
+	First Name<br>
+	<input type="text" id="fname" name="fname" style="width:500px;" placeholder="Enter your first name here" required><br><br>
+	Last Name<br>
+	<input type="text" id="lname" name="lname" style="width:500px;" required><br><br>
+	Gender<br>
+	<input type="radio" id="gender" name="gender" value="mail" checked>Mail
+	<input type="radio" id="gender" name="gender" value="fmail">Fmail<br><br>
+	Mobile Number<br>
+	<input type="text" id="mobile" name="mobile" style="width:500px;" pattern="[0-9]{10}" required><br><br>
+	Email Address<br>
+	<input type="text" id="email" name="email" style="width:500px;" pattern="[a-zA-z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" required><br><br>
+	Address<br>
+	<textarea id="address" name="address" rows="10" cols="50" style="width:500px;" required></textarea><br><br>
+	
+	Choose Your DOB<br>
+	<select>
+		<option>1996</option>
+		<option>1997</option>
+		<option>1998</option>	
+		<option>1999</option>
+		<option>2000</option>
+		<option>2001</option>
+		<option>2002</option>
+		<option>2003</option>
+		<option>2004</option>
+				
+
+	</select>
+	<select>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+		<option>Juny</option>
+		<option>July</option>
+		<option>August</option>
+		<option>September</option>
+		<option>Octomber</option>
+		<option>November</option>
+		<option>December</option>
+			
+
+	</select>
+	<select>
+		<option>09</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+		<option>13</option>
+		<option>14</option>
+		<option>15</option>		
+
+	</select><br><br>
+
+	Password<br>
+	<input type="password" id="pass" placeholder="password" style="width:500px;" pattern="[a-z0-9] {5,8}" required><br><br>
+	Re-enter password<br>
+	<input type="password" id="rpass" placeholder="password" style="width:500px;" required><br><br>
+
+
+
+	
+	Accept Privacy Policy and term
+	<input type="checkbox" id="policy" name="policy" required onclick="enableButton()"><br><br>
+
+	<input type="submit" id="btn" name="btn" value="Submit"  >
+
+</form>
+
+</center>	
+
+<h3><center>Create By:vijini Maduwanthi</center></h3>
+<h3><center><a href="https://www.sliit.lk/">Vist to Our Course</a></center></h3>
+
+
+</body>
+
+
+
+</html>

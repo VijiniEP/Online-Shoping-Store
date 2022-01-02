@@ -1,0 +1,54 @@
+h1{
+	font-size:50px;
+
+}
+
+
+
+
+#header{
+	font-size:36px;
+
+
+}
+
+#test{
+	border:2px solid purple;
+
+}
+
+ul.menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:#333;
+	overflow:hidden;
+
+}
+li.menu{
+	float:left;
+}
+li a{
+	display:block;
+	color:white;
+	padding:12px 14px;
+	text-decoration:none;
+
+}
+li a:hover{
+	background-color:pink;
+
+}
+
+.productData{
+	background-color:white;
+	padding:5px;
+
+}
+
+
+
+
+
+
+
